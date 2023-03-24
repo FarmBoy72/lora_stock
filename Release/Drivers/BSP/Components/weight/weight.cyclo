@@ -1,0 +1,7 @@
+weight.c:57:6:WEIGHT_SCK_Init	1
+weight.c:72:6:WEIGHT_DOUT_Init	1
+weight.c:85:6:WEIGHT_SCK_DeInit	1
+weight.c:92:6:WEIGHT_DOUT_DeInit	1
+weight.c:99:10:HX711_Read	3
+weight.c:120:6:Get_Maopi	1
+weight.c:125:6:Get_Weight	6

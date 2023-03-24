@@ -1,0 +1,5 @@
+command.c:556:13:CMD_GetChar	1
+command.c:591:13:com_error	3
+command.c:551:6:CMD_Init	1
+command.c:561:6:CMD_Process	22
+command.c:663:9:printf_all_config	4

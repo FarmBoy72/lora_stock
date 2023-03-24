@@ -1,0 +1,5 @@
+flash_eraseprogram.c:70:6:EEPROM_program	3
+flash_eraseprogram.c:98:7:FLASH_erase	2
+flash_eraseprogram.c:125:7:FLASH_program	3
+flash_eraseprogram.c:155:7:FLASH_program_on_addr	2
+flash_eraseprogram.c:180:10:FLASH_read	1

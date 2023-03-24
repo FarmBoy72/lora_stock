@@ -1,0 +1,5 @@
+hw_spi.c:132:6:HW_SPI_IoInit	1
+hw_spi.c:87:6:HW_SPI_Init	7
+hw_spi.c:152:6:HW_SPI_IoDeInit	1
+hw_spi.c:121:6:HW_SPI_DeInit	1
+hw_spi.c:180:10:HW_SPI_InOut	1

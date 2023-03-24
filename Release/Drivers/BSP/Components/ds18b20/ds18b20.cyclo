@@ -1,0 +1,12 @@
+ds18b20.c:53:6:DS18B20_delay	1
+ds18b20.c:67:6:DS18B20_Mode_IPU	4
+ds18b20.c:96:6:DS18B20_Mode_Out_PP	4
+ds18b20.c:125:6:DS18B20_IoDeInit	4
+ds18b20.c:159:6:DS18B20_Rst	4
+ds18b20.c:199:10:DS18B20_Presence	19
+ds18b20.c:297:9:DS18B20_ReadBit	4
+ds18b20.c:346:9:DS18B20_ReadByte	2
+ds18b20.c:359:6:DS18B20_WriteBit	4
+ds18b20.c:417:6:DS18B20_WriteByte	7
+ds18b20.c:512:6:DS18B20_SkipRom	1
+ds18b20.c:519:7:DS18B20_GetTemp_SkipRom	4

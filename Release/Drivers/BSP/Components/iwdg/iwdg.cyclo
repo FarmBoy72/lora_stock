@@ -1,0 +1,5 @@
+iwdg.c:104:10:GetLSIFrequency	6
+iwdg.c:67:6:iwdg_init	2
+iwdg.c:179:6:HAL_TIM_IC_CaptureCallback	2
+iwdg.c:197:6:TIMER_IRQHandler	1
+iwdg.c:202:6:IWDG_Refresh	2

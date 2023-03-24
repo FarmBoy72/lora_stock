@@ -1,0 +1,6 @@
+hw_gpio.c:176:16:HW_GPIO_GetBitPos	4
+hw_gpio.c:85:6:HW_GPIO_Init	6
+hw_gpio.c:106:6:HW_GPIO_SetIrq	2
+hw_gpio.c:133:6:HW_GPIO_IrqHandler	2
+hw_gpio.c:150:6:HW_GPIO_Write	1
+hw_gpio.c:163:10:HW_GPIO_Read	1

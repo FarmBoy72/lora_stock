@@ -1,0 +1,5 @@
+lora-test.c:347:13:OnCertifTxNextPacketTimerEvent	7
+lora-test.c:106:6:certif_running	1
+lora-test.c:111:6:certif_DownLinkIncrement	1
+lora-test.c:116:6:certif_linkCheck	1
+lora-test.c:191:6:certif_rx	20

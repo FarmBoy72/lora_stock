@@ -1,0 +1,5 @@
+gpio_exti.c:61:7:GPIO_EXTI_FALLINGInit	1
+gpio_exti.c:77:7:GPIO_EXTI_RISINGInit	1
+gpio_exti.c:93:7:GPIO_EXTI_RISING_FALLINGInit	1
+gpio_exti.c:109:7:GPIO_EXTI_IoDeInit	1
+gpio_exti.c:116:6:GPIO_INPUT_IoInit	1

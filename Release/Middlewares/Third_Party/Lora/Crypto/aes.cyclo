@@ -1,0 +1,5 @@
+aes.c:349:13:xor_block	1
+aes.c:376:13:copy_and_key	1
+aes.c:513:13:aes_set_key	8
+aes.c:568:13:aes_encrypt	3
+aes.c:597:13:aes_cbc_encrypt	3

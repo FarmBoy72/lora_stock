@@ -1,0 +1,2 @@
+pwr_out.c:62:6:pwr_control_IoInit	1
+pwr_out.c:74:6:pwr_control_IoDeInit	1

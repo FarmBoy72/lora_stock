@@ -1,0 +1,4 @@
+lidar_lite_v3hp.c:76:6:BSP_lidar_Init	2
+lidar_lite_v3hp.c:162:10:waitbusy	3
+lidar_lite_v3hp.c:100:6:LidarLite_init	1
+lidar_lite_v3hp.c:117:10:LidarLite	9

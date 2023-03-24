@@ -1,0 +1,6 @@
+LoRaMacCrypto.c:79:6:LoRaMacComputeMic	1
+LoRaMacCrypto.c:108:6:LoRaMacPayloadEncrypt	5
+LoRaMacCrypto.c:153:6:LoRaMacPayloadDecrypt	1
+LoRaMacCrypto.c:158:6:LoRaMacJoinComputeMic	1
+LoRaMacCrypto.c:171:6:LoRaMacJoinDecrypt	2
+LoRaMacCrypto.c:183:6:LoRaMacJoinComputeSKeys	1
