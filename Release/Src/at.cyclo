@@ -30,7 +30,7 @@ at.c:350:12:at_ADR_set	2
 at.c:370:12:at_TransmitPower_get	2
 at.c:382:12:at_TransmitPower_set	4
 at.c:397:12:at_DataRate_get	2
-at.c:411:12:at_DataRate_set	4
+at.c:411:12:at_DataRate_set	5
 at.c:480:12:at_DutyCycle_set	3
 at.c:495:12:at_DutyCycle_get	4
 at.c:504:12:at_PublicNetwork_get	2
@@ -80,7 +80,7 @@ at.c:1148:12:at_TDC_set	3
 at.c:1166:12:at_TDC_get	1
 at.c:1171:12:at_application_port_set	2
 at.c:1183:12:at_application_port_get	1
-at.c:1188:12:at_CHE_set	2
+at.c:1188:12:at_CHE_set	5
 at.c:1233:12:at_CHE_get	7
 at.c:1275:12:at_CHS_set	4
 at.c:1290:12:at_CHS_get	1

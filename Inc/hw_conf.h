@@ -124,12 +124,12 @@ Maintainer: Miguel Luis and Gregory Cristian
   #include "mlm32l0xx_hw_conf.h"
 #endif
 
-/* --------Preprocessor compile swicth------------ */
+/* --------Preprocessor compile switch------------ */
 #define LoRa_Sensor_Node   /*LSN50 Device*/
 //#define AT_Data_Send         /*LoRa ST Module*/
 
    
-/* uncomment below line to never enter lowpower modes in main.c*/
+/* uncomment below line to never enter low power modes in main.c*/
 //#define LOW_POWER_DISABLE
   
 /* Exported types ------------------------------------------------------------*/

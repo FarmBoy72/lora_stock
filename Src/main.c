@@ -224,7 +224,7 @@ int main(void) {
 
 	new_firmware_update();
 
-	/*Disbale Stand-by mode*/
+	/*Disable Stand-by mode*/
 	LPM_SetOffMode(LPM_APPLI_Id, LPM_Disable);
 
 	/* Configure the Lora Stack*/
@@ -373,8 +373,10 @@ int main(void) {
 
 		/* USER CODE BEGIN 2 */
 		/* USER CODE END 2 */
-	}
-}
+	} /* end main while loop */
+} /* end of main */
+
+
 
 static void LORA_HasJoined(void) {
 	rx2_flags = 1;
