@@ -57,34 +57,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := lora_stock
+BUILD_ARTIFACT_NAME := lora_LSN50_Stock
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-lora_stock.elf \
+lora_LSN50_Stock.elf \
 
 MAP_FILES += \
-lora_stock.map \
+lora_LSN50_Stock.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-lora_stock.list \
+lora_LSN50_Stock.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: lora_stock.elf secondary-outputs
+main-build: lora_LSN50_Stock.elf secondary-outputs
 
 # Tool invocations
-lora_stock.elf lora_stock.map: $(OBJS) $(USER_OBJS) C:\Users\ryans\Documents\GitHub\lora_stock\STM32L072CZTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "lora_stock.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Users\ryans\Documents\GitHub\lora_stock\STM32L072CZTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lora_stock.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+lora_LSN50_Stock.elf lora_LSN50_Stock.map: $(OBJS) $(USER_OBJS) C:\Users\ryans\Documents\GitHub\lora_stock\STM32L072CZTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "lora_LSN50_Stock.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Users\ryans\Documents\GitHub\lora_stock\STM32L072CZTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lora_LSN50_Stock.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -93,14 +93,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-lora_stock.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "lora_stock.list"
+lora_LSN50_Stock.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "lora_LSN50_Stock.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) default.size.stdout lora_stock.elf lora_stock.list lora_stock.map
+	-$(RM) default.size.stdout lora_LSN50_Stock.elf lora_LSN50_Stock.list lora_LSN50_Stock.map
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
